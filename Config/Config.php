@@ -1,7 +1,7 @@
 <?php 
 	
-	//define("BASE_URL", "http://localhost/tienda_virtual/");
-	const BASE_URL = "http://localhost/tienda_virtual";
+	//define("BASE_URL", "http://localhost/connectIsp/");
+	const BASE_URL = "http://localhost/connectISP";
 
 	//Zona horaria
 	date_default_timezone_set('America/Guatemala');
@@ -22,9 +22,9 @@
 
 	//Datos envio de correo
 	const NOMBRE_REMITENTE = "ConnectISP";
-	const EMAIL_REMITENTE = "no-reply@abelosh.com";
-	const NOMBRE_EMPESA = "Tienda Virtual";
-	const WEB_EMPRESA = "www.abelosh.com";
+	const EMAIL_REMITENTE = "no-reply@connectisp.com";
+	const NOMBRE_EMPESA = "ConnectISP";
+	const WEB_EMPRESA = "www.connectisp.com";
 	
 
 

@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mini Framework - AbelOSh</title>
+  <title>ConnectISP - GrupoISP</title>
 </head>
 <body>
-    <p>Mini Framework V1.0 - <a href="https://abelosh.com">www.abelosh.com</a></p>
+    <p>ConnectISP V1.0 - <a href="https://connectISP.com">www.connectISP.com</a></p>
 </body>
 </html>

@@ -41,15 +41,15 @@
         <li class="treeview">
             <a class="app-menu__item" href="#" data-toggle="treeview">
                 <i class="app-menu__icon fa fa-archive" aria-hidden="true"></i>
-                <span class="app-menu__label">Tienda</span>
+                <span class="app-menu__label">Soporte Técnico</span>
                 <i class="treeview-indicator fa fa-angle-right"></i>
             </a>
             <ul class="treeview-menu">
                 <?php if(!empty($_SESSION['permisos'][4]['r'])){ ?>
-                <li><a class="treeview-item" href="<?= base_url(); ?>/productos"><i class="icon fa fa-circle-o"></i> Productos</a></li>
+                <li><a class="treeview-item" href="<?= base_url(); ?>/productos"><i class="icon fa fa-circle-o"></i> Reparaciones</a></li>
                 <?php } ?>
                 <?php if(!empty($_SESSION['permisos'][6]['r'])){ ?>
-                <li><a class="treeview-item" href="<?= base_url(); ?>/categorias"><i class="icon fa fa-circle-o"></i> Categorías</a></li>
+                <li><a class="treeview-item" href="<?= base_url(); ?>/categorias"><i class="icon fa fa-circle-o"></i> Instalaciones</a></li>
                 <?php } ?>
             </ul>
         </li>
@@ -58,7 +58,7 @@
         <li>
             <a class="app-menu__item" href="<?= base_url(); ?>/pedidos">
                 <i class="app-menu__icon fa fa-shopping-cart" aria-hidden="true"></i>
-                <span class="app-menu__label">Pedidos</span>
+                <span class="app-menu__label">Satisfacción de la App</span>
             </a>
         </li>
          <?php } ?>
