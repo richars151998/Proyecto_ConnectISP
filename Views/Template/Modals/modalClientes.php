@@ -102,6 +102,7 @@
               <td id="celTelefono">Larry</td>
             </tr>
             <tr>
+            <tr>
               <td>Email (Usuario):</td>
               <td id="celEmail">Larry</td>
             </tr>
